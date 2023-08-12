@@ -48,6 +48,57 @@
             //}
             //Console.WriteLine("sum of {0} is {1}",backupValue,sum);
 
+
+
+            /////Celsius to Fahrenheit Conversion && Fahrenheit to Celsius Conversion
+
+            //TemperatureConverter temp=new TemperatureConverter();
+            //Console.WriteLine("Please provide celsius temp:");
+            //string val1=Console.ReadLine();
+            //double fahrenheit=temp.CelsiusToFahrenheit(val1);
+            //Console.WriteLine($"The value of {val1} celsius is {fahrenheit}fahrenheit");
+
+            //Console.WriteLine("Please provide fahrenheit temp");
+            //string val2=Console.ReadLine();
+            //double celsius=temp.FahrenheitToCelsius(val2);
+            //Console.WriteLine($"The value of {val2} fahrenheit is {celsius}celsius");
+
+
+
+            ////sum of natural numbers && Even numbers && odd numbers
+            //Console.WriteLine("Please provide sum of natural numbers count:");
+            //int count=Int32.Parse(Console.ReadLine());
+            //int sum = 0;
+            ////sum of natural numbers
+
+
+            //for (int i = 1; i <= count; i++)
+            //{
+
+            //    sum = sum + i;
+            //}
+            //Console.WriteLine($"sum of {count} number is sum {sum}");
+
+            //// sum of even numbers
+            //for (int i = 1; i <= count; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        sum=sum+i;
+            //    }
+            //}
+            //Console.WriteLine($"sum of {count} even number is sum {sum}");
+
+
+            //// sum of odd numbers
+            //for (int i = 1; i <= count; i++)
+            //{
+            //    if(i%2 != 0)
+            //    {
+            //        sum=sum+i;
+            //    }
+            //}
+            //Console.WriteLine($"sum of  {count} odd number is sum {sum}");
         }
 
         //private static void Fibonacci(int count)
