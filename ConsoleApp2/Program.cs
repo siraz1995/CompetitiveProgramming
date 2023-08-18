@@ -99,6 +99,77 @@
             //    }
             //}
             //Console.WriteLine($"sum of  {count} odd number is sum {sum}");
+
+
+            //Finding Factors of a given number
+
+            //Console.WriteLine("Please provide input number");
+            //int input = Int32.Parse(Console.ReadLine());
+            ////if I want to sum those factors
+            //int sum = 0;
+            //for (int i = 1; i <=input; i++)
+            //{
+            //    if (input % i == 0)
+            //    {
+            //        Console.WriteLine($"{i} is a factor of {input}");
+            //        sum += i;
+            //    }
+            //}
+            //Console.WriteLine($"sum of factors of {input} is {sum}");
+
+
+            //Swaping two numbers with temporary variables
+
+            //int a = 5, b = 10, temp;
+            //Console.WriteLine($"values before swaping a: {a} && b: {b}");
+            //temp = a;
+            //a = b;
+            //b= temp;
+            //Console.WriteLine($"values after swaping a: {a} && b: {b}");
+
+            //Swaping two numbers without temporary variables
+
+            //int a = 5, b = 10;
+            //Console.WriteLine($"values before swaping a: {a} && b: {b}");
+
+            //a = a + b;
+            //b = a - b;
+            //a = a - b;
+            //Console.WriteLine($"values after swaping a: {a} && b: {b}");
+
+
+            //the program to reverse a number
+            //Console.WriteLine("Please provide input number");
+            //int input = Int32.Parse(Console.ReadLine());
+            //int remainder, reverse = 0;
+            //while (input > 0)
+            //{
+            //    remainder = input % 10;
+            //    reverse = reverse * 10 + remainder;
+            //    input = input / 10;
+            //}
+            //Console.WriteLine($"Reverse number is {reverse}");
+
+
+            //Program to check palindrome number
+            //Console.WriteLine("Please provide input number");
+            //int input=Int32.Parse(Console.ReadLine());
+            //int backup = input;
+            //int remainder, reverse = 0;
+            //while (input > 0)
+            //{
+            //    remainder = input % 10;
+            //    reverse = reverse * 10 + remainder;
+            //    input=input / 10;
+            //}
+            //if (backup==reverse)
+            //{
+            //    Console.WriteLine($"{backup} is palindrome number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{backup} is not palindrome number.");
+            //}
         }
 
         //private static void Fibonacci(int count)
