@@ -170,6 +170,112 @@
             //{
             //    Console.WriteLine($"{backup} is not palindrome number.");
             //}
+
+
+            //Reverse a string without useing predefined function
+
+            //Console.WriteLine("Please provide input string");
+            //string input=Console.ReadLine();
+            //string reverse = string.Empty;
+            //int length = input.Length-1;
+            //while (length>= 0)
+            //{
+            //    reverse = reverse + input[length];
+            //    length--;
+            //}
+            //Console.WriteLine($"reverse string is {reverse}");
+
+
+            //Program to check given string is palindrome or not
+
+            //Console.WriteLine("Please provide input string");
+            //string input=Console.ReadLine();
+            //string backup = input;
+            //string reverse=string.Empty;
+            //int length = input.Length - 1;
+            //while (length >= 0)
+            //{
+            //    reverse = reverse + input[length];
+            //    length--;
+            //}
+            //if(input==reverse)
+            //{
+            //    Console.WriteLine($"{backup} is a string palindrome");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{backup} is not a string palindrome");
+            //}
+
+
+            //Print pattern in numbers row 
+
+            //Console.Write("Please provide no of rows :");
+            //int noOfRows = Int32.Parse(Console.ReadLine());
+            //for(int row = 1; row <= noOfRows; row++)
+            //{
+            //    for(int column=1;column<=row; column++)
+            //    {
+            //        Console.Write(row+ " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //Print pattern in numbers column
+            //Console.Write("Please provide no of rows :");
+            //int noOfRows = Int32.Parse(Console.ReadLine());
+            //for(int row = 1; row <=noOfRows; row++)
+            //{
+            //    for(int column = 1; column <= row; column++)
+            //    {
+            //        Console.Write(column+" ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            ////Print Floyd's Triangle with Numbers
+            //Console.Write("Please provide no of rows :");
+            //int noOfRows = Int32.Parse(Console.ReadLine());
+            //int counter = 1;
+            //for(int row = 1; row <= noOfRows; row++)
+            //{
+            //    for(int column = 1; column <= row; column++)
+            //    {
+            //        Console.Write(counter +"  ");
+            //        counter++;
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //Print pattern in numbers column
+            //Console.Write("Please provide no of rows :");
+            //int noOfRows = Int32.Parse(Console.ReadLine());
+            //int counter = 1;
+            //for(int row = 1; row <= noOfRows; row++)
+            //{
+            //    for(int column = 1; column <= row; column++)
+            //    {
+            //        Console.Write(counter + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //Print pattern in numbers column
+            //Console.Write("Please provide no of rows :");
+            //int noOfRows = Int32.Parse(Console.ReadLine());
+            //for(int row = 1; row <= noOfRows; row++)
+            //{
+            //    for(int column = row; column >= 1; column--)
+            //    {
+            //        Console.Write(column + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+          
         }
 
         //private static void Fibonacci(int count)
