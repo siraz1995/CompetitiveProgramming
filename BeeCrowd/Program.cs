@@ -49,15 +49,37 @@
 
             //problem no 1006
 
-            double A, B, C;
-            double WeightA =2;
-            double WeightB =3;
-            double WeightC = 5;
-            A = double.Parse(Console.ReadLine());
-            B = double.Parse(Console.ReadLine());
-            C = double.Parse(Console.ReadLine());
-            double MEDIA = ((A * WeightA) + (B * WeightB)+(C*WeightC)) / (WeightA + WeightB+WeightC);
-            Console.WriteLine("MEDIA = " + MEDIA.ToString("F1"));
+            //double A, B, C;
+            //double WeightA =2;
+            //double WeightB =3;
+            //double WeightC = 5;
+            //A = double.Parse(Console.ReadLine());
+            //B = double.Parse(Console.ReadLine());
+            //C = double.Parse(Console.ReadLine());
+            //double MEDIA = ((A * WeightA) + (B * WeightB)+(C*WeightC)) / (WeightA + WeightB+WeightC);
+            //Console.WriteLine("MEDIA = " + MEDIA.ToString("F1"));
+
+            //problem no 1007
+
+            //int A,B,C,D;           
+            //A = int.Parse(Console.ReadLine());
+            //B= int .Parse(Console.ReadLine());
+            //C=int.Parse(Console.ReadLine()) ;
+            //D = int.Parse(Console.ReadLine());            
+            //Console.WriteLine("DIFERENCA = " + DIFERENCA);
+
+            //Problem no 1008
+
+            //int employeeNumber = int.Parse(Console.ReadLine());
+            //int workHours = int.Parse(Console.ReadLine());
+            //double hourlyRate = double.Parse(Console.ReadLine());
+
+            //double Salary= workHours*hourlyRate;
+
+            //Console.WriteLine("NUMBER = " +  employeeNumber);
+            //Console.WriteLine("SALARY = U$ " + Salary.ToString("F2"));
+
+            
 
         }
     }
