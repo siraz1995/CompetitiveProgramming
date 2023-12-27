@@ -79,7 +79,34 @@
             //Console.WriteLine("NUMBER = " +  employeeNumber);
             //Console.WriteLine("SALARY = U$ " + Salary.ToString("F2"));
 
-            
+            //Problem no 1009
+
+            //string EmployeeName; double Salary, TotalSale;
+            //EmployeeName=Console.ReadLine();
+            //Salary=double.Parse(Console.ReadLine());
+            //TotalSale=double.Parse(Console.ReadLine());
+
+            //double totalSalary = Salary+((TotalSale*15)/100);
+            //Console.WriteLine("TOTAL = R$ " + totalSalary.ToString("F2"));
+
+            //Problem no 1010
+
+            //string[] input1 = Console.ReadLine().Split(' ');
+            //int code1 = int.Parse(input1[0]);
+            //int units1 = int.Parse(input1[1]);
+            //double price1 = double.Parse(input1[2]);
+
+            //// Reading input for product 2
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //int code2 = int.Parse(input2[0]);
+            //int units2 = int.Parse(input2[1]);
+            //double price2 = double.Parse(input2[2]);
+
+            //// Calculating total amount
+            //double amountToPay = (units1 * price1) + (units2 * price2);
+
+            //// Formatting and displaying the result
+            //Console.WriteLine("VALOR A PAGAR: R$ " + amountToPay.ToString("F2"));
 
         }
     }
