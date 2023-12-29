@@ -154,6 +154,39 @@
             //double result = X / Y;
             //Console.WriteLine(result.ToString("F3") + " km/l");
 
+            // problem no 1015
+
+
+            //string[] input1 = Console.ReadLine().Split(' ');
+            //double x1 = double.Parse(input1[0]);
+            //double y1= double.Parse(input1[1]);
+
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //double x2= double.Parse(input2[0]);
+            //double y2= double.Parse(input2[1]);
+
+            //double z = (x2 - x1);
+            //double c= (y2 - y1);
+            //double result = Math.Pow(z, 2);
+            //double d= Math.Pow(c, 2);
+            //double sum = result + d;
+            //double r= Math.Sqrt(sum);
+            //Console.WriteLine(r.ToString("F4"));
+
+            //Problem no 1016
+
+            //int distance=int.Parse(Console.ReadLine());
+            //int result = distance * 2;
+            //Console.WriteLine(result+" minutos");
+
+            //Problem no 1017
+
+            //int spendTime = int.Parse(Console.ReadLine());
+            //int averageSpeed = int.Parse(Console.ReadLine());
+            //double totalTripHours = spendTime*averageSpeed;
+            //double spendFuel = totalTripHours / 12;
+            //Console.WriteLine(spendFuel.ToString("F3"));
+
         }
     }
 }
