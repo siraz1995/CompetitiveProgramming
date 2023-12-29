@@ -187,6 +187,25 @@
             //double spendFuel = totalTripHours / 12;
             //Console.WriteLine(spendFuel.ToString("F3"));
 
+            //Problem no 1018
+
+           
+            int value = int.Parse(Console.ReadLine());
+
+           
+            int[] banknotes = { 100, 50, 20, 10, 5, 2, 1 };
+
+           
+            Console.WriteLine(value);
+
+            
+            foreach (int note in banknotes)
+            {
+                int quantity = value / note;
+                value %= note;
+                Console.WriteLine($"{quantity} nota(s) de R$ {note},00");
+            }
+
         }
     }
 }
