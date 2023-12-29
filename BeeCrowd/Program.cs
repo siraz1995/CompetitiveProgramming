@@ -108,6 +108,45 @@
             //// Formatting and displaying the result
             //Console.WriteLine("VALOR A PAGAR: R$ " + amountToPay.ToString("F2"));
 
+
+            //Problem no 1011
+
+            //double R=double.Parse(Console.ReadLine());
+
+            //double bolume = (4.0 / 3) * 3.14159 * Math.Pow(R, 3);
+
+            //Console.WriteLine("VOLUME = " + bolume.ToString("F3"));
+
+            //Problem no 1012
+
+
+            //double A = double.Parse(Console.ReadLine());
+            //double B = double.Parse(Console.ReadLine());
+            //double C = double.Parse(Console.ReadLine());
+
+            // double pi = 3.14159;
+
+            // double AreaofTriangle = (1.0 / 2) * A * C;
+            // double AreaofCircle=pi*Math.Pow(C,2);
+            // double AreaOfTrapezium = (1.0 / 2) * (A + B) * C;
+            // double AreaOfSquare=Math.Pow(B,2);
+            // double AreaOfRectangular = A * B;
+
+            // Console.WriteLine("TRIANGULO: " + AreaofTriangle.ToString("F3"));
+            // Console.WriteLine("CIRCULO: " + AreaofCircle.ToString("F3"));
+            // Console.WriteLine("TRAPEZIO: " + AreaOfTrapezium.ToString("F3"));
+            // Console.WriteLine("QUADRADO: " + AreaOfSquare.ToString("F3"));
+            // Console.WriteLine("RETANGULO: " + AreaOfRectangular.ToString("F3"));
+
+            //Problem no 1013
+            string[] input2 = Console.ReadLine().Split(' ');
+            int A = int.Parse(input2[0]);
+            int B = int.Parse(input2[1]);
+            int S = int.Parse(input2[2]);
+
+            int MaiorAB = (A + B + A * B * S * (A - B)) / 2;
+            Console.WriteLine(MaiorAB + " eh o maior");
+
         }
     }
 }
