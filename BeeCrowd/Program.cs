@@ -139,13 +139,20 @@
             // Console.WriteLine("RETANGULO: " + AreaOfRectangular.ToString("F3"));
 
             //Problem no 1013
-            string[] input2 = Console.ReadLine().Split(' ');
-            int A = int.Parse(input2[0]);
-            int B = int.Parse(input2[1]);
-            int S = int.Parse(input2[2]);
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //int A = int.Parse(input2[0]);
+            //int B = int.Parse(input2[1]);
+            //int S = int.Parse(input2[2]);
 
-            int MaiorAB = (A + B + A * B * S * (A - B)) / 2;
-            Console.WriteLine(MaiorAB + " eh o maior");
+            //int MaiorAB = (A + B + A * B * S * (A - B)) / 2;
+            //Console.WriteLine(MaiorAB + " eh o maior");
+
+            //Problem no 1014
+
+            //int X = int.Parse(Console.ReadLine());
+            //double Y = double.Parse(Console.ReadLine());
+            //double result = X / Y;
+            //Console.WriteLine(result.ToString("F3") + " km/l");
 
         }
     }
