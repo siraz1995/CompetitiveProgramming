@@ -189,16 +189,16 @@
 
             //Problem no 1018
 
-           
+
             //int value = int.Parse(Console.ReadLine());
 
-           
+
             //int[] banknotes = { 100, 50, 20, 10, 5, 2, 1 };
 
-           
+
             //Console.WriteLine(value);
 
-            
+
             //foreach (int note in banknotes)
             //{
             //    int quantity = value / note;
@@ -215,7 +215,7 @@
             //if (minutes > 60)
             //{
             //    minutes = minutes % 60;
-                
+
             //}
 
             //Console.WriteLine($"{hours}:{minutes}:{seconds}");
@@ -230,6 +230,57 @@
             //Console.WriteLine($"{years} ano(s)");
             //Console.WriteLine($"{months} mes(es)");
             //Console.WriteLine($"{days} dia(s)");
+
+            //Problem no 1021
+
+
+            //double inpuValue = double.Parse(Console.ReadLine());
+            //int[] bankNotes = { 100, 50, 20, 10, 5, 2 };
+            //double[] bankCoins = { 1, 0.50, 0.25, 0.10, 0.05, 0.01 };
+
+            //Console.WriteLine("NOTAS:");
+            //foreach (int note in bankNotes)
+            //{
+            //    double quantity = Math.Floor(inpuValue / note);
+            //    inpuValue %= note;
+            //    Console.WriteLine($"{quantity} nota(s) de R$ {note}.00");
+            //}
+            //Console.WriteLine("MOEDAS:");
+            //foreach (double coins in bankCoins)
+            //{
+            //    double quantity = Math.Floor(inpuValue / coins);
+            //    inpuValue %= coins;
+            //    Console.WriteLine($"{quantity} moeda(s) de R$ {coins.ToString("0.00##")}");
+            //}
+
+
+            // Final solution
+
+            double N = double.Parse(Console.ReadLine());
+            int cents = (int)(N * 100);
+
+            int[] notes = { 10000, 5000, 2000, 1000, 500, 200 };
+            int[] coins = { 100, 50, 25, 10, 5, 1 };
+
+            Console.WriteLine("NOTAS:");
+
+            foreach (int note in notes)
+            {
+                int quantity = cents / note;
+                Console.WriteLine($"{quantity} nota(s) de R$ {(note / 100.0):F2}");
+                cents %= note;
+            }
+
+            Console.WriteLine("MOEDAS:");
+
+            foreach (int coin in coins)
+            {
+                int quantity = cents / coin;
+                Console.WriteLine($"{quantity} moeda(s) de R$ {(coin / 100.0):F2}");
+                cents %= coin;
+            }
+
+            //Problem no 1035
         }
     }
 }
