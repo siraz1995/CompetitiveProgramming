@@ -120,23 +120,25 @@
             //Problem no 1012
 
 
-            //double A = double.Parse(Console.ReadLine());
-            //double B = double.Parse(Console.ReadLine());
-            //double C = double.Parse(Console.ReadLine());
 
-            // double pi = 3.14159;
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //double A = double.Parse(input2[0]);
+            //double B = double.Parse(input2[1]);
+            //double C = double.Parse(input2[2]);
 
-            // double AreaofTriangle = (1.0 / 2) * A * C;
-            // double AreaofCircle=pi*Math.Pow(C,2);
-            // double AreaOfTrapezium = (1.0 / 2) * (A + B) * C;
-            // double AreaOfSquare=Math.Pow(B,2);
-            // double AreaOfRectangular = A * B;
+            //double pi = 3.14159;
 
-            // Console.WriteLine("TRIANGULO: " + AreaofTriangle.ToString("F3"));
-            // Console.WriteLine("CIRCULO: " + AreaofCircle.ToString("F3"));
-            // Console.WriteLine("TRAPEZIO: " + AreaOfTrapezium.ToString("F3"));
-            // Console.WriteLine("QUADRADO: " + AreaOfSquare.ToString("F3"));
-            // Console.WriteLine("RETANGULO: " + AreaOfRectangular.ToString("F3"));
+            //double AreaofTriangle = (1.0 / 2) * A * C;
+            //double AreaofCircle = pi * Math.Pow(C, 2);
+            //double AreaOfTrapezium = (1.0 / 2) * (A + B) * C;
+            //double AreaOfSquare = Math.Pow(B, 2);
+            //double AreaOfRectangular = A * B;
+
+            //Console.WriteLine("TRIANGULO: " + AreaofTriangle.ToString("F3"));
+            //Console.WriteLine("CIRCULO: " + AreaofCircle.ToString("F3"));
+            //Console.WriteLine("TRAPEZIO: " + AreaOfTrapezium.ToString("F3"));
+            //Console.WriteLine("QUADRADO: " + AreaOfSquare.ToString("F3"));
+            //Console.WriteLine("RETANGULO: " + AreaOfRectangular.ToString("F3"));
 
             //Problem no 1013
             //string[] input2 = Console.ReadLine().Split(' ');
@@ -256,31 +258,70 @@
 
             // Final solution
 
-            double N = double.Parse(Console.ReadLine());
-            int cents = (int)(N * 100);
+            //double N = double.Parse(Console.ReadLine());
+            //int cents = (int)(N * 100);
 
-            int[] notes = { 10000, 5000, 2000, 1000, 500, 200 };
-            int[] coins = { 100, 50, 25, 10, 5, 1 };
+            //int[] notes = { 10000, 5000, 2000, 1000, 500, 200 };
+            //int[] coins = { 100, 50, 25, 10, 5, 1 };
 
-            Console.WriteLine("NOTAS:");
+            //Console.WriteLine("NOTAS:");
 
-            foreach (int note in notes)
-            {
-                int quantity = cents / note;
-                Console.WriteLine($"{quantity} nota(s) de R$ {(note / 100.0):F2}");
-                cents %= note;
-            }
+            //foreach (int note in notes)
+            //{
+            //    int quantity = cents / note;
+            //    Console.WriteLine($"{quantity} nota(s) de R$ {(note / 100.0):F2}");
+            //    cents %= note;
+            //}
 
-            Console.WriteLine("MOEDAS:");
+            //Console.WriteLine("MOEDAS:");
 
-            foreach (int coin in coins)
-            {
-                int quantity = cents / coin;
-                Console.WriteLine($"{quantity} moeda(s) de R$ {(coin / 100.0):F2}");
-                cents %= coin;
-            }
+            //foreach (int coin in coins)
+            //{
+            //    int quantity = cents / coin;
+            //    Console.WriteLine($"{quantity} moeda(s) de R$ {(coin / 100.0):F2}");
+            //    cents %= coin;
+            //}
 
             //Problem no 1035
+
+
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //int A = int.Parse(input2[0]);
+            //int B = int.Parse(input2[1]);
+            //int C = int.Parse(input2[2]);
+            //int D = int.Parse(input2[3]);
+
+            //if (B > C && D > A && (C+D) > (A+B) && C > 0 && D > 0 && A % 2 == 0)
+            //{
+            //    Console.WriteLine("Valores aceitos");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Valores nao aceitos");
+            //}
+
+            //Problem no 1036
+
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //double A = double.Parse(input2[0]);
+            //double B = double.Parse(input2[1]);
+            //double C = double.Parse(input2[2]);
+
+            //double delta = B * B - 4 * A * C;
+
+            //if (A == 0 || delta < 0)
+            //{
+            //    Console.WriteLine("Impossivel calcular");
+            //}
+            //else
+            //{
+            //    double root1 = (-B + Math.Sqrt(delta)) / (2 * A);
+            //    double root2 = (-B - Math.Sqrt(delta)) / (2 * A);
+
+            //    Console.WriteLine($"R1 = {root1:F5}");
+            //    Console.WriteLine($"R2 = {root2:F5}");
+            //}
+
         }
     }
 }
