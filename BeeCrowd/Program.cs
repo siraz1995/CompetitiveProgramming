@@ -49,15 +49,162 @@
 
             //problem no 1006
 
-            double A, B, C;
-            double WeightA =2;
-            double WeightB =3;
-            double WeightC = 5;
-            A = double.Parse(Console.ReadLine());
-            B = double.Parse(Console.ReadLine());
-            C = double.Parse(Console.ReadLine());
-            double MEDIA = ((A * WeightA) + (B * WeightB)+(C*WeightC)) / (WeightA + WeightB+WeightC);
-            Console.WriteLine("MEDIA = " + MEDIA.ToString("F1"));
+            //double A, B, C;
+            //double WeightA =2;
+            //double WeightB =3;
+            //double WeightC = 5;
+            //A = double.Parse(Console.ReadLine());
+            //B = double.Parse(Console.ReadLine());
+            //C = double.Parse(Console.ReadLine());
+            //double MEDIA = ((A * WeightA) + (B * WeightB)+(C*WeightC)) / (WeightA + WeightB+WeightC);
+            //Console.WriteLine("MEDIA = " + MEDIA.ToString("F1"));
+
+            //problem no 1007
+
+            //int A,B,C,D;           
+            //A = int.Parse(Console.ReadLine());
+            //B= int .Parse(Console.ReadLine());
+            //C=int.Parse(Console.ReadLine()) ;
+            //D = int.Parse(Console.ReadLine());            
+            //Console.WriteLine("DIFERENCA = " + DIFERENCA);
+
+            //Problem no 1008
+
+            //int employeeNumber = int.Parse(Console.ReadLine());
+            //int workHours = int.Parse(Console.ReadLine());
+            //double hourlyRate = double.Parse(Console.ReadLine());
+
+            //double Salary= workHours*hourlyRate;
+
+            //Console.WriteLine("NUMBER = " +  employeeNumber);
+            //Console.WriteLine("SALARY = U$ " + Salary.ToString("F2"));
+
+            //Problem no 1009
+
+            //string EmployeeName; double Salary, TotalSale;
+            //EmployeeName=Console.ReadLine();
+            //Salary=double.Parse(Console.ReadLine());
+            //TotalSale=double.Parse(Console.ReadLine());
+
+            //double totalSalary = Salary+((TotalSale*15)/100);
+            //Console.WriteLine("TOTAL = R$ " + totalSalary.ToString("F2"));
+
+            //Problem no 1010
+
+            //string[] input1 = Console.ReadLine().Split(' ');
+            //int code1 = int.Parse(input1[0]);
+            //int units1 = int.Parse(input1[1]);
+            //double price1 = double.Parse(input1[2]);
+
+            //// Reading input for product 2
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //int code2 = int.Parse(input2[0]);
+            //int units2 = int.Parse(input2[1]);
+            //double price2 = double.Parse(input2[2]);
+
+            //// Calculating total amount
+            //double amountToPay = (units1 * price1) + (units2 * price2);
+
+            //// Formatting and displaying the result
+            //Console.WriteLine("VALOR A PAGAR: R$ " + amountToPay.ToString("F2"));
+
+
+            //Problem no 1011
+
+            //double R=double.Parse(Console.ReadLine());
+
+            //double bolume = (4.0 / 3) * 3.14159 * Math.Pow(R, 3);
+
+            //Console.WriteLine("VOLUME = " + bolume.ToString("F3"));
+
+            //Problem no 1012
+
+
+            //double A = double.Parse(Console.ReadLine());
+            //double B = double.Parse(Console.ReadLine());
+            //double C = double.Parse(Console.ReadLine());
+
+            // double pi = 3.14159;
+
+            // double AreaofTriangle = (1.0 / 2) * A * C;
+            // double AreaofCircle=pi*Math.Pow(C,2);
+            // double AreaOfTrapezium = (1.0 / 2) * (A + B) * C;
+            // double AreaOfSquare=Math.Pow(B,2);
+            // double AreaOfRectangular = A * B;
+
+            // Console.WriteLine("TRIANGULO: " + AreaofTriangle.ToString("F3"));
+            // Console.WriteLine("CIRCULO: " + AreaofCircle.ToString("F3"));
+            // Console.WriteLine("TRAPEZIO: " + AreaOfTrapezium.ToString("F3"));
+            // Console.WriteLine("QUADRADO: " + AreaOfSquare.ToString("F3"));
+            // Console.WriteLine("RETANGULO: " + AreaOfRectangular.ToString("F3"));
+
+            //Problem no 1013
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //int A = int.Parse(input2[0]);
+            //int B = int.Parse(input2[1]);
+            //int S = int.Parse(input2[2]);
+
+            //int MaiorAB = (A + B + A * B * S * (A - B)) / 2;
+            //Console.WriteLine(MaiorAB + " eh o maior");
+
+            //Problem no 1014
+
+            //int X = int.Parse(Console.ReadLine());
+            //double Y = double.Parse(Console.ReadLine());
+            //double result = X / Y;
+            //Console.WriteLine(result.ToString("F3") + " km/l");
+
+            // problem no 1015
+
+
+            //string[] input1 = Console.ReadLine().Split(' ');
+            //double x1 = double.Parse(input1[0]);
+            //double y1= double.Parse(input1[1]);
+
+            //string[] input2 = Console.ReadLine().Split(' ');
+            //double x2= double.Parse(input2[0]);
+            //double y2= double.Parse(input2[1]);
+
+            //double z = (x2 - x1);
+            //double c= (y2 - y1);
+            //double result = Math.Pow(z, 2);
+            //double d= Math.Pow(c, 2);
+            //double sum = result + d;
+            //double r= Math.Sqrt(sum);
+            //Console.WriteLine(r.ToString("F4"));
+
+            //Problem no 1016
+
+            //int distance=int.Parse(Console.ReadLine());
+            //int result = distance * 2;
+            //Console.WriteLine(result+" minutos");
+
+            //Problem no 1017
+
+            //int spendTime = int.Parse(Console.ReadLine());
+            //int averageSpeed = int.Parse(Console.ReadLine());
+            //double totalTripHours = spendTime*averageSpeed;
+            //double spendFuel = totalTripHours / 12;
+            //Console.WriteLine(spendFuel.ToString("F3"));
+
+            //Problem no 1018
+
+           
+            int value = int.Parse(Console.ReadLine());
+
+           
+            int[] banknotes = { 100, 50, 20, 10, 5, 2, 1 };
+
+           
+            Console.WriteLine(value);
+
+            
+            foreach (int note in banknotes)
+            {
+                int quantity = value / note;
+                value %= note;
+                Console.WriteLine($"{quantity} nota(s) de R$ {note},00");
+            }
 
         }
     }
