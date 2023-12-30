@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{17198AFD-BC8A-4B81-A8EA-1248BEC3FBFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeCrowd", "BeeCrowd\BeeCrowd.csproj", "{535AF1C8-3894-4A1F-AE4A-AA1CC8B000D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeCrowd", "BeeCrowd\BeeCrowd.csproj", "{535AF1C8-3894-4A1F-AE4A-AA1CC8B000D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{991E6141-A0A2-48AE-9437-B72895BA1841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{535AF1C8-3894-4A1F-AE4A-AA1CC8B000D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535AF1C8-3894-4A1F-AE4A-AA1CC8B000D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535AF1C8-3894-4A1F-AE4A-AA1CC8B000D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991E6141-A0A2-48AE-9437-B72895BA1841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991E6141-A0A2-48AE-9437-B72895BA1841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991E6141-A0A2-48AE-9437-B72895BA1841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991E6141-A0A2-48AE-9437-B72895BA1841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
