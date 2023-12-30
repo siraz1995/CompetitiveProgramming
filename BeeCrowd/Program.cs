@@ -206,6 +206,30 @@
             //    Console.WriteLine($"{quantity} nota(s) de R$ {note},00");
             //}
 
+            // Problem no 1019
+
+            //int inputValue=int.Parse(Console.ReadLine());
+            //int minutes = inputValue / 60;           
+            //int hours = minutes / 60;
+            //int seconds = inputValue % 60;
+            //if (minutes > 60)
+            //{
+            //    minutes = minutes % 60;
+                
+            //}
+
+            //Console.WriteLine($"{hours}:{minutes}:{seconds}");
+
+            //Problem no 1020
+
+            //int inputValue=int.Parse(Console.ReadLine());
+            //int years = inputValue / 365;
+            //int fractionValue=inputValue % 365;
+            //int months = fractionValue / 30;
+            //int days = fractionValue % 30;
+            //Console.WriteLine($"{years} ano(s)");
+            //Console.WriteLine($"{months} mes(es)");
+            //Console.WriteLine($"{days} dia(s)");
         }
     }
 }
